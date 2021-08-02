@@ -1,0 +1,101 @@
+{
+    lat: 33.8844, //緯度
+    lon: 130.4942, //経度
+    timezone: Asia/Tokyo, //リクエストタイムゾーン
+    timezone_offset: 32400, //UTC秒単位シフト
+    current: { //現在の気象データ
+        dt: 1618664347, //現在時刻 Unix UTC
+        sunrise: 1618605897, //日の出時刻
+        sunset: 1618652995, //日没時刻
+        temp: 287.19, //温度
+        feels_like: 285.59, //温度　体感？
+        pressure: 1014, 
+        humidity: 36, //湿度
+        dew_point: 272.46, 
+        uvi: 0, //紫外線
+        clouds: 20, //曇り%
+        visibility: 10000, 
+        wind_speed: 8.75, //風速
+        wind_deg: 290, //風向き　度
+        wind_gust: 13.89, //最大風速
+        weather: [ //気象条件
+            {
+                id: 801, //気象条件ID
+                main: Clouds, //気象パラメータ
+                description: few clouds, //カテゴリー内気象条件
+                icon: 02n　//天気アイコンID
+            }
+        ]
+    }, 
+    minutely: [ //分単位天気データ
+        {
+            dt: 1618664400, //予測データ時刻
+            precipitation: 0 //降水量mm
+        }, 
+        {
+            dt: 1618664460, 
+            precipitation: 0
+        }, 
+        {
+            dt: 1618664520, 
+            precipitation: 0
+        }, 
+        {
+            dt: 1618664580, 
+            precipitation: 0
+        }, 
+        {
+            dt: 1618664640, 
+            precipitation: 0
+        }, 
+        {
+            dt: 1618664700, 
+            precipitation: 0
+        }, 
+        {
+            dt: 1618664760, 
+            precipitation: 0
+        }, 
+        {
+            dt: 1618664820,
+            precipitation: 0
+        }, 
+        {
+            dt: 1618664880, 
+            precipitation: 0
+        }, 
+        {
+            dt: 1618664940, 
+            precipitation: 0
+        }, 
+        {
+            dt: 1618665000, 
+            precipitation: 0
+        }, 
+        {
+            dt: 1618665060, 
+            precipitation: 0
+        }, 
+        {
+            dt: 1618665120, 
+            precipitation: 0
+        }, 
+        {
+            dt: 1618665180, 
+            precipitation: 0
+        }, 
+        {
+            dt: 1618665240, 
+            precipitation: 0
+        }, 
+        {
+            dt: 1618665300, 
+            precipitation: 0
+        }, 
+        {
+            dt: 1618665360, 
+            precipitation: 0
+        }, 
+        {
+           
+
